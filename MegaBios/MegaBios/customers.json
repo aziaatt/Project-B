@@ -12,12 +12,13 @@
     },
     "email": "lotte.vandijk@example.com",
     "wachtwoord": "W4chtwo0rd!",
-    "telefoonnummer": "+31 6 12345678",
+    "telefoonnummer": "\u002B31 6 12345678",
     "voorkeur_betaalwijze": "iDeal",
-    "is_student": 1
+    "is_student": true
   },
   {
     "voornaam": "Daan",
+    "tussenvoegsel": "",
     "achternaam": "Bakker",
     "geboorte_datum": "1975-04-20",
     "adres": {
@@ -28,9 +29,9 @@
     },
     "email": "daan.bakker@example.com",
     "wachtwoord": "G3heim!",
-    "telefoonnummer": "+31 10 98765432",
+    "telefoonnummer": "\u002B31 10 98765432",
     "voorkeur_betaalwijze": "Creditcard",
-    "is_student": 0
+    "is_student": false
   },
   {
     "voornaam": "Eva",
@@ -45,8 +46,25 @@
     },
     "email": "eva.degroot@example.com",
     "wachtwoord": "P@ssw0rd!",
-    "telefoonnummer": "+31 30 55554444",
+    "telefoonnummer": "\u002B31 30 55554444",
     "voorkeur_betaalwijze": "PayPal",
-    "is_student": 1
+    "is_student": true
+  },
+  {
+    "voornaam": "Maurice",
+    "tussenvoegsel": "",
+    "achternaam": "Boendermaker",
+    "geboorte_datum": "2003-09-01",
+    "adres": {
+      "straat": "Teststraat 1",
+      "huisnummer": "86",
+      "woonplaats": "Capelle aan den IJssel",
+      "postcode": "0000 AB"
+    },
+    "email": "mauriceboendermaker@gmail.com",
+    "wachtwoord": "Pass1234",
+    "telefoonnummer": "00 0000000",
+    "voorkeur_betaalwijze": "PayPal",
+    "is_student": true
   }
 ]
