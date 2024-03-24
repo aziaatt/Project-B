@@ -60,14 +60,24 @@ namespace MegaBios
                         isAuthenticated = true;
                         Console.WriteLine("Login successful!");
 
-                        Console.WriteLine("Do you want to delete your account? (yes/no)");
-                        string deleteChoice = Console.ReadLine();
+                        Console.WriteLine("1. Display Account Information \n2. Delete Account\n3. Update Account Information");
+                        string userChoice = Console.Readline();
 
-                        if (deleteChoice == "yes")
+                        switch (userChoice)
                         {
-                            DeleteAccount.RemoveAccount(jsonData, account);
+                            case "1":
+                                ReadAccount.DisplayUserInfo(account);
+                                break;
+                            case "2":
+                                DeleteAccount.RemoveAccount(jsonData, account);
+                                break;
+                            case "3":
+                                // Hier komt code van John
+                                break;
+                            default:
+                                Console.WriteLine("Invalid choice. Please try again.");
+                                break;
                         }
-
                         break;
                     }
                 }
