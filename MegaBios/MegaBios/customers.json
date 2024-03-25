@@ -66,5 +66,22 @@
     "telefoonnummer": "00 0000000",
     "voorkeur_betaalwijze": "PayPal",
     "is_student": true
+  },
+  {
+    "voornaam": "Alper",
+    "tussenvoegsel": "the",
+    "achternaam": "Great",
+    "geboorte_datum": "2003-04-10",
+    "adres": {
+      "straat": "Alexander the Great street 1",
+      "huisnummer": "122",
+      "woonplaats": "Rotterdam",
+      "postcode": "3074VJ"
+    },
+    "email": "info@alper.nl",
+    "wachtwoord": "Alper2003",
+    "telefoonnummer": "0640518191",
+    "voorkeur_betaalwijze": "IDeal",
+    "is_student": true
   }
 ]
